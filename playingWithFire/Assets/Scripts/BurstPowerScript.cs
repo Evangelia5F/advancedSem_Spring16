@@ -31,7 +31,8 @@ public class BurstPowerScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void FixedUpdate () {
-	
+        
+
         //fire on, fire off
         if (abilityTrigerred == true)
         {

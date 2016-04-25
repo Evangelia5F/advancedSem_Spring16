@@ -77,11 +77,11 @@
   <ItemGroup>
     <Compile Include="Assets\Campfire\Script\FireLightScript.cs" />
     <Compile Include="Assets\GE Common Assets\Scripts\GE_UIResponder.cs" />
-    <Compile Include="Assets\Level1WallScript.cs" />
-    <Compile Include="Assets\Level2WallScript.cs" />
     <Compile Include="Assets\Scripts\BurstPowerScript.cs" />
     <Compile Include="Assets\Scripts\CollectibleBehaviourScript.cs" />
     <Compile Include="Assets\Scripts\FinishedLvl1Script.cs" />
+    <Compile Include="Assets\Scripts\Level1WallScript.cs" />
+    <Compile Include="Assets\Scripts\Level2WallScript.cs" />
     <Compile Include="Assets\Scripts\SceneManagerBehaviourScript.cs" />
     <Compile Include="Assets\Scripts\SpiderEnemyBehaviourScript.cs" />
     <Compile Include="Assets\Scripts\StartGameScript.cs" />
