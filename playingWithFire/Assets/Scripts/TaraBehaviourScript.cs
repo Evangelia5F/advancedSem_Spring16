@@ -28,6 +28,7 @@ public class TaraBehaviourScript : MonoBehaviour {
         fireHat = GameObject.Find("fireHat");
        
         spawnPoint = GameObject.FindGameObjectWithTag("SpawnPoint");
+        
         fireLevel = initFireLevel;
         onFire = true;
         weDead = false;

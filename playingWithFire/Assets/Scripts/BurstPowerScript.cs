@@ -36,6 +36,7 @@ public class BurstPowerScript : MonoBehaviour {
         if (abilityTrigerred == true)
         {
             rigi.velocity = rigi.velocity + (new Vector2(speedBoost*h, 0f));
+            Debug.Log(rigi.velocity.x);
             //this.GetComponent<SpriteRenderer>().enabled = true;
             firePathParticles.SetActive(true);
 
