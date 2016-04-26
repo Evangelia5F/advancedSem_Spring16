@@ -25,7 +25,7 @@ public class Level1WallScript : MonoBehaviour {
             Instantiate(vineWalls, new Vector3(5.0f, -0.5f, 0), verticalTilt);
             Instantiate(vineWalls, new Vector3(-1.0f, -0.5f, 0), verticalTilt);
             Instantiate(vineWalls, new Vector3(-5.0f, -1.5f, 0), verticalTilt);
-            Instantiate(finish, new Vector3(7.0f, -2.0f, 0f), Quaternion.identity);
+            Instantiate(finish, new Vector3(-3.0f, 6.0f, 0f), Quaternion.identity);
             weStart = false;
         }
 	}
